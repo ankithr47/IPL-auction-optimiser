@@ -1,2 +1,20 @@
-# IPL-auction-optimiser
-Machine learning pipeline to simulate IPL auctions and optimise squad selection using predictive modelling, optimisation, and backtesting
+# IPL Auction Optimizer
+
+## Project Overview
+An end-to-end machine learning pipeline that simulates IPL auctions and selects optimal squads under budget and role constraints. Includes predictive modeling, optimization, and backtesting.
+
+## Features
+- Collects & processes IPL player and auction data
+- Predicts player performance & auction prices
+- Simulates auctions with rival bidding
+- Optimizes squad selection using linear programming
+- Backtests against historical IPL seasons
+- Interactive Streamlit app for strategy exploration
+
+## Tech Stack
+- Python, Pandas, Scikit-learn
+- XGBoost/LightGBM
+- PuLP / OR-Tools
+- Streamlit for deployment
+
+
