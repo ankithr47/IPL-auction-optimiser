@@ -1,7 +1,7 @@
 # IPL Auction Optimizer
 
 ## Project Overview
-An end-to-end machine learning pipeline that simulates IPL auctions and selects optimal squads under budget and role constraints. Includes predictive modeling, optimization, and backtesting.
+An end-to-end machine learning pipeline that simulates IPL auctions and selects optimal squads under budget and role constraints. Includes predictive modeling, optimization, and backtesting, whilst evaluating the effectiveness of different auction bidding strategies
 
 ## Features
 - Collects & processes IPL player and auction data
