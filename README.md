@@ -1,15 +1,22 @@
-# IPL Auction Optimizer
+# IPL player price predictor
 
 ## Project Overview
-An end-to-end machine learning pipeline that simulates IPL auctions and selects optimal squads under budget and role constraints. Includes predictive modeling, optimization, and backtesting, whilst evaluating the effectiveness of different auction bidding strategies
+The IPL PLayer Price Predictor is a machine learning project designed to estimate the likely auction price of an IPL player based on their overall performances, previous prices, current form, profile, and playing conditions.
+
+Every year, IPL franchises compete fiercely in auctions, bidding for players whose value is influenced by skillset, form, team balance, and market demand. This project combines historical auction data and player performance statistics to build predictive models that can simulate what price a player might fetch in an auction
 
 ## Features
 - Collects & processes IPL player and auction data
-- Predicts player performance & auction prices
-- Simulates auctions with rival bidding
-- Optimizes squad selection using linear programming
-- Backtests against historical IPL seasons
-- Interactive Streamlit app for strategy exploration
+- Feature engineering (batting, bowling, venues, form, overseas/home, consistency)
+- Machine learning modeling (Linear Regression, Random Forest, XGBoost)
+- Model evaluation with metrics like RMSE and MAE
+- Deployment as an interactive Streamlit app where users can test hypothetical player profiles
+- backtesting to evaluate models and improve
+
+## Objectives
+- Predict likely auction orice of IPL players based on their stats and role
+- Identify which features (eg batting strike rate, wickets, international experience, venue performance) most influence price
+- Provide a user-friendly tool for cricket fans, analysts or aspiring franchise strategists to explore hypothetical player valuations
 
 ## Tech Stack
 - Python, Pandas, Scikit-learn
